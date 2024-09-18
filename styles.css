@@ -9,18 +9,18 @@
   flex-direction: column;
   align-items: center;
   width: 500px;
-  background: #464542;
+  background: linear-gradient(#717370 5%, #525453 5% 95%, #4b4c4e 95%);
   border-radius: 5px;
 }
 
 #display_container {
   background: linear-gradient(#f4f0ef, #edecea);
   border-radius: 5px;
-  width: 420px;
+  width: 400px;
   box-sizing: border-box;
-  height: 50px;
-  margin: 20px;
-  padding: 2px;
+  height: 65px;
+  margin: 10px;
+  padding: 10px;
 }
 
 #display {
@@ -44,9 +44,10 @@
   border: 2px solid #f1f1f3;
   margin: 20px;
   box-sizing: border-box;
+  background: #353535;
 }
 
-#buttons > div {
+.button {
   width: 100px;
   height: 50px;
   box-sizing: border-box;
@@ -56,4 +57,7 @@
   vertical-align: middle;
   color: #fbfbfd;
   background: linear-gradient(#f4f5f8 5%, #504f53 5% 70%, #575759 70%);
+}
+.button_special {
+  background: linear-gradient(#90edff 5%, #019fdc 5% 70%, #0099d7 70%);
 }
